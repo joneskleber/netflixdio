@@ -1,6 +1,7 @@
 :root{
     --vermelho: #e50914;
     --preta: #141414;
+    --primary: orange;    
 }
 
 
@@ -15,6 +16,10 @@ body{
     background: var(--preta);
     font-family: 'Arial', Times, serif;
     color:white;
+}
+
+header {
+    border-bottom: 2px solid var(--primary);
 }
 
 header .container{
@@ -110,4 +115,44 @@ header nav a:hover{
 
 .carrosel-filmes{
     margin-top: 5px;
+    border-bottom: 2px solid var(--primary);
 }
+
+/* Rodapé */
+
+
+.rodape {
+    padding-top: 10px;
+}
+  
+
+.rodape .titulo{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+  .rodape .icones a{
+    color: darkgray;
+    text-decoration: none;
+    font-size: 20px; 
+    margin-right:20px;   
+  }
+
+  .rodape .icones a:hover {
+    color: white;
+}
+
+  .copyright{
+    margin-top: 25px;
+    text-decoration: none;
+    font-size: 15px; 
+    color: white;     
+    padding-bottom: 15px;
+  }
+ 
+
+  
+  
